@@ -15,7 +15,7 @@ int main()
 	int kolumna = 0;
 	for (kolumna; kolumna < 2; kolumna++) {
 		for (wiersz = 0; wiersz < 2; wiersz++) {
-			cout << "wiersz  \t" << wiersz << " kolumna\t" << kolumna << " =\t" << tablica2d[wiersz][kolumna] << endl;
+			cout << "wiersz  \t" << wiersz << " kolumna\t" << kolumna << " =\t" << tablica2d[wiersz][kolumna] <<"\n";
 		}
 	}
 }
